@@ -1,0 +1,7 @@
+div#ms--additional-resources {
+    display: none !important;
+}
+
+.column.is-8-desktop {
+    width: 95% !important;
+}
