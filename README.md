@@ -11,7 +11,11 @@ This extension gives you a cleaner, faster and more readable Microsoft Learn exp
 
 [link-chrome]: https://chromewebstore.google.com/detail/microsoft-learn-boost/mkacacgjjgafnjekdcoodibajidagopd 'Version published on Chrome Web Store'
 
-[<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle">][link-chrome] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/mkacacgjjgafnjekdcoodibajidagopd.svg?label=%20">][link-chrome] and other Chromium browsers
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle">][link-chrome] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/mkacacgjjgafnjekdcoodibajidagopd.svg?label=%20">][link-chrome] Google Chrome and other Chromium browsers
+
+[link-edge]: https://microsoftedge.microsoft.com/addons/detail/refined-microsoft-learn/ohjiccikicdhcdlophelgjppakkdlfmg 'Version published on Edge Add-ons'
+
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/edge/edge.svg" width="48" alt="Chrome" valign="middle">][link-edge] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/mkacacgjjgafnjekdcoodibajidagopd.svg?label=%20">][link-edge] Microsoft Edge
 
 ## What it does
 
