@@ -1,7 +1,16 @@
-div#ms--additional-resources {
-    display: none !important;
+.rf-ms-learn-main-column {
+    width: 95% !important;
 }
 
-.column.is-8-desktop {
-    width: 95% !important;
+.rf-ms-learn-floating-toc {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    opacity: 0.9;
+    background: var(--theme-text-invert);
+    border: .125rem solid var(--theme-border);
 }

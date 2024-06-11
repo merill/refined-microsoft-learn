@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Options</title>
+    <style>
+        html, body {
+            font-family: segoe ui, Candara, lucida grande, lucida sans unicode, lucida sans, Tahoma, sans-serif;
+            font-size: 14px;
+            color: #e8eef2;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            width: 300px;
+        }
+
+        .header {
+            background-color: #333337;
+            border-bottom: #4E4E4E 1px solid;
+            padding-bottom: 2px;
+            padding-top: 2px;
+        }
+
+        .header img {
+            width: 14px;
+            position: absolute;
+            top: 5px;
+            left: 4px;
+        }
+
+        .header h2 {
+            padding-top: 0;
+            padding-left: 22px;
+        }
+
+        h2 {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        .content {
+            padding: 5px;
+            background: #252526;
+        }
+
+        .content label {
+            display: inline-block;
+            margin-top: -60px;
+        }
+
+        .content .hint {
+            font-size: 12px;
+            font-style: italic;
+            color: #979797;
+            margin-left: 8px;
+        }
+
+        .content .subtitle {
+            font-size: 12px;
+            padding-bottom: 5px;
+        }
+
+        .content input[type="button"] {
+            /*width: 100%;*/
+            height: 18px;
+            background: #66B347;
+            border: none;
+            color: #e8eef2;
+            font-size: 12px;
+            font-weight: normal;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        .bottom-help {
+            padding-top: 5px;
+            font-size: 12px;
+            color: rgba(151, 151, 151, 0.87);
+        }
+
+        .footer {
+            background-color: #333337;
+            font-size: 14px;
+            border-top: #4E4E4E 1px solid;
+            padding-left: 3px;
+            padding-bottom: 2px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #5e9ff9;
+        }
+
+        a:hover {
+            color: #e8eef2;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <img src="img/icon-48.png" alt="icon"/>
+    <h2>Refined Microsoft Learn</h2>
+</div>
+
+<div class="content">
+
+    <div class="subtitle">
+        Makes Microsoft Learn more readable by removing the sidebar and other distractions.
+    </div>
+
+    <label for="removeSidebar">
+        <input type="checkbox" id="removeSidebar" checked=""/>remove sidebar
+    </label>
+    <div class="hint">
+        Removes sidebar from the right side of the page.
+    </div>
+
+    <label for="floatingTOC">
+        <input type="checkbox" id="floatingTOC" checked=""/>floating TOC
+    </label>
+    <div class="hint">
+        Moves the table of contents to the right top side of the page and makes it floating.
+    </div>
+
+    <div class="bottom-help">
+        To apply changes, <a id="refresh" href="#">refresh</a> the page.
+    </div>
+
+</div>
+
+<div class="footer">
+    <a href="https://github.com/merill/refined-microsoft-learn" target="_blank">GitHub</a>
+</div>
+<script src="core.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
