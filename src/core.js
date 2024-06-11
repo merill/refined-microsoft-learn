@@ -17,15 +17,3 @@ async function getOptions() {
         floatingTOC: current[OptionFloatingTOC] ?? false,
     };
 }
-
-// async function loadConfig(id, defaultValue) {
-//     return await chrome.storage.sync.get([id]) || defaultValue;
-// }
-//
-// async function shouldRemoveSidebar() {
-//     return await loadConfig(RemoveSidebar, true);
-// }
-//
-// async function shouldFloatTOC() {
-//     return await loadConfig(FloatingTOC, false);
-// }
