@@ -9,6 +9,10 @@
         "48": "img/icon-48.png",
         "128": "img/icon-128.png"
     },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
     "content_scripts": [
         {
             "matches": [
@@ -16,7 +20,15 @@
             ],
             "css": [
                 "styles.css"
+            ],
+            "js": [
+                "core.js",
+                "content-script.js"
             ]
         }
-    ]
+    ],
+    "action": {
+        "default_title": "Refined Microsoft Learn",
+        "default_popup": "popup.html"
+    }
 }
