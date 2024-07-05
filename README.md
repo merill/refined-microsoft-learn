@@ -17,6 +17,11 @@ This extension gives you a cleaner, faster and more readable Microsoft Learn exp
 
 [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/edge/edge.svg" width="48" alt="Chrome" valign="middle">][link-edge] [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/refined-microsoft-learn/ohjiccikicdhcdlophelgjppakkdlfmg)
 
+[link-firefox]: https://addons.mozilla.org/firefox/addon/refined-microsoft-learn/ 'Version published on Firefox Add-ons'
+
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/main/src/firefox/firefox.svg" width="48" alt="Chrome" valign="middle">][link-firefox] [Firefox](https://addons.mozilla.org/firefox/addon/refined-microsoft-learn/)
+
+
 ## What it does
 
 ### Reduce clutter by removing the right pane
