@@ -1,12 +1,19 @@
 async function initHandler(id, value) {
     document.getElementById(id).checked = value;
     document.getElementById(id).addEventListener("click", function () {
+
+        //Use the right browser object based on the browser
+        //Firefox uses the browser object while Chrome uses chrome object
+        var browser = (window.browser)? window.browser : window.chrome;
+        
         const currentValue = document.getElementById(id).checked;
         console.log(id + " -> " + currentValue);
-        chrome.storage.sync.set({[id]: currentValue});
-    });
-}
+        browser.storage.sync.set({[id]: currentValue});
 
+        browser.tabs.reload();
+    });
+    
+}
 
 async function init() {
     const options = await getOptions();
@@ -15,8 +22,3 @@ async function init() {
 }
 
 init();
-
-// add "refresh" button to popup
-document.getElementById("refresh").addEventListener("click", function () {
-    chrome.tabs.reload();
-});
