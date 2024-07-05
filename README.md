@@ -32,8 +32,9 @@ This extension gives you a cleaner, faster and more readable Microsoft Learn exp
 
 ![Compare2](https://github.com/merill/ms-learn-boost/assets/1288081/9ec6de25-e7e6-479e-bcc8-2ad36ad1e2a2)
 
-## FAQ
 
-### Firefox support?
+### Use toggle options to show/hide right pane 
 
-I couldn't get Firefox working. It should work with the same code but it doesn't. If someone can figure out and let me know (or submit a PR) I'll be happy to publish it.
+![CleanShot 2024-07-05 at 17 23 56@2x](https://github.com/merill/refined-microsoft-learn/assets/1288081/a6b77cdf-28de-4bd2-8193-7e23810138dd)
+
+
