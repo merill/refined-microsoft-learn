@@ -4,13 +4,31 @@
 
 .rf-ms-learn-floating-toc {
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
     z-index: 9999;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    opacity: 0.9;
+    padding: 2px 8px 10px 9px;
+    opacity: 0.8;
     background: var(--theme-text-invert);
     border: .125rem solid var(--theme-border);
+    border-radius: 5px;
+}
+
+.rf-ms-learn-floating-toc:hover {
+    opacity: 1;
+}
+
+/* make header less high */
+.rf-ms-learn-floating-toc h2 {
+    margin: 0 !important;
+}
+
+/* remove line to the left of the border and make the list slimmer */
+.rf-ms-learn-floating-toc ol {
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+.rf-ms-learn-floating-toc ol li {
+    list-style: inside !important;
 }

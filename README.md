@@ -32,6 +32,10 @@ This extension gives you a cleaner, faster and more readable Microsoft Learn exp
 
 ![Compare2](https://github.com/merill/ms-learn-boost/assets/1288081/9ec6de25-e7e6-479e-bcc8-2ad36ad1e2a2)
 
+### Move table of contents from the top to sticky top-right corner
+
+![](assets/toc-before-after.png)
+
 
 ### Use toggle options to show/hide right pane 
 
